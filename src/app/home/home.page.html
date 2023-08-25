@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Chat Bot
+      Chat virtual
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -15,11 +15,11 @@
 
   <ion-grid>
   <ion-row>
-    <ion-col>  <h1>Test ChatGPT</h1>
+    <ion-col>  <h1>ChatBro</h1>
       <form [formGroup]="chatG" (ngSubmit)="onSubmit(chatG.value)">
       
         <ion-item>
-          <ion-input label="Mensaje" labelPlacement="floating" placeholder="Enter text" formControlName="mensaje"></ion-input>
+          <ion-input label="¿De qué quieres que hablemos?" labelPlacement="floating" placeholder="Envía un mensaje" formControlName="mensaje"></ion-input>
         </ion-item>
 
         <ion-card>
